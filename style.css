@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.left-section {
+    /* Styles for the left section (Account Page) */
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.strava-logo {
+    width: 150px;
+    height: 30px;
+}
+
+.username {
+    font-size: 12px;
+    /* Adjust the font size as needed */
+}
+
+.content {
+    margin: 10px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #008CBA;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
+
+.recommendation-button {
+    font-size: 18px;
+    /* Increase the font size */
+    padding: 10px 20px;
+    /* Add some padding */
+    background-color: #007bff;
+    /* Set a background color */
+    color: white;
+    /* Set the text color */
+    border: none;
+    /* Remove the border */
+    border-radius: 5px;
+    /* Add rounded corners */
+    cursor: pointer;
+    /* Change the cursor to a pointer when hovering */
+    display: block;
+    /* Make the button take up the full width of its container */
+    max-width: auto;
+    /* Set a maximum width */
+    margin: 10px auto;
+    /* Center the button and add some margin */
+    text-align: center;
+    /* Center the text */
+}
+
+.recommendation-button:hover {
+    background-color: #0056b3;
+    /* Change the background color when hovering */
+}
+
+.suspension_type {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 26px;
+}
+select {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 26px;
+}

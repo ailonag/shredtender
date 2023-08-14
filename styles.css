@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-size: 25px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.left-section {
+    /* Styles for the left section (Account Page) */
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.strava-logo {
+    width: 150px;
+    height: 30px;
+}
+
+.content {
+    margin: 15px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #008CBA;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 36px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 36px; /* Increase font size */
+}
+@media screen and (max-width: 600px) {
+    .content {
+        padding: 0 20px;
+    }
+    input[type="text"], input[type="password"] {
+        width: 100%;
+    }
+    font-size: 40px; /* Increase font size */
+}
